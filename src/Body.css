@@ -1,0 +1,9 @@
+.body {
+  margin-left: 160px;
+  overflow: scroll;
+  /* position: relative; */
+}
+.body__info {
+  display: flex;
+  align-items: center;
+}

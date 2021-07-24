@@ -1,0 +1,9 @@
+.chat {
+  width: 100vw;
+  background-color: #fafafa;
+  height: 100vh;
+  /* margin-top: -25px; */
+  /* display: grid;
+  place-items: center; */
+  overflow: hidden;
+}

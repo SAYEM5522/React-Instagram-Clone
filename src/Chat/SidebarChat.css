@@ -1,0 +1,26 @@
+.sidebarChat {
+  display: flex;
+  padding: 12px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebarChat:hover {
+  background-color: #fafafa;
+}
+.sidebarChat__info {
+  margin-left: 15px;
+}
+.sidebarChat__info > h4 {
+  font-weight: 150;
+}
+.sidebarChat__info > p {
+  font-size: 15px;
+  color: gray;
+}
+.sidebarChat__avatar {
+  height: 55px;
+  border-radius: 99px;
+  object-fit: contain;
+}

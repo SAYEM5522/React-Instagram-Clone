@@ -1,0 +1,7 @@
+.sidebarBody {
+  overflow: scroll;
+  height: 89%;
+}
+.sidebarBody::-webkit-scrollbar {
+  display: none;
+}

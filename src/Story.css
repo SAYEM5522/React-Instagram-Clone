@@ -1,0 +1,15 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.story__logo {
+  height: 60px;
+  border-radius: 99px;
+  border: 1.99px solid red;
+}
+.story > p {
+  font-size: 11px;
+}

@@ -1,0 +1,64 @@
+.post {
+  width: 610px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 30px;
+}
+.post__logo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+}
+.post-top__logo {
+  height: 34px;
+  border-radius: 99px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.post__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+.post-top__info {
+  flex: 1;
+  margin-left: 15px;
+}
+.post-top__info > h4 {
+  font-size: 14px;
+  font-weight: 600;
+  width: fit-content;
+}
+.post-top__info > h4:hover {
+  border-bottom: 0.7px solid black;
+}
+.post-top__info > p {
+  font-size: 13px;
+  padding-top: 2px;
+  cursor: pointer;
+  /* line-height: 15px; */
+}
+.post__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-bottom__left {
+  display: flex;
+  align-items: center;
+}
+.post-bottom__left > .MuiSvgIcon-root {
+  margin-left: 15px;
+  font-size: 30px !important;
+}
+.post__icon {
+  color: red !important;
+}
+.post__whiteicon {
+  color: gray;
+}
+.post-bottom__right > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}

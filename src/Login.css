@@ -1,0 +1,25 @@
+.login__logo {
+  height: 140px;
+  object-fit: contain;
+}
+.login {
+  display: grid;
+
+  height: 100%;
+  place-items: center;
+}
+.login__logoName {
+  object-fit: contain;
+}
+.login__info {
+  display: flex;
+  flex-direction: column;
+}
+.login__info > img {
+  margin-bottom: 16px;
+}
+.login > button {
+  width: 200px;
+  background-color: #ffff;
+  color: black;
+}

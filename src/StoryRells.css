@@ -1,0 +1,10 @@
+.storyrells {
+  min-width: 610px;
+  height: 110px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}

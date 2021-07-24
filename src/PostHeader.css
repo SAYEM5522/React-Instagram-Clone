@@ -1,0 +1,41 @@
+.postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.postHeader__info {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.postHeader__info1 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.postHeader__info1 > h3 {
+  margin-left: 10px;
+}
+.postHeader__info > h3 {
+  font-size: 16px;
+  font-weight: 40px;
+  margin-left: 10px;
+  color: gray;
+  text-transform: uppercase;
+}
+.postHeader__info > .MuiSvgIcon-root {
+  color: gray !important;
+  font-size: 16px !important;
+}
+
+.postHeader__info1 > h3 {
+  font-size: 16px;
+  font-weight: 40px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.postHeader__info1 > .MuiSvgIcon-root {
+  font-size: 17px !important;
+}

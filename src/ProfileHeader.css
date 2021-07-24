@@ -1,0 +1,46 @@
+.profileHeader__logo {
+  object-fit: contain;
+  border-radius: 99px;
+  margin-right: 100px;
+}
+.profileHeader {
+  padding-top: 25px;
+  margin-left: 220px;
+  display: flex;
+}
+.profileHeader-right__top {
+  display: flex;
+  align-items: center;
+}
+.profileHeader-right__top > h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 250;
+  margin-right: 15px;
+}
+.profileHeader-right__top > button {
+  text-transform: inherit;
+  margin-right: 7px;
+}
+.profileHeader-right__top > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+.profileHeader-right__middle {
+  margin-top: 30px;
+  display: flex;
+}
+.profileHeader-right__middle > p {
+  margin-right: 30px;
+  font-size: 17px;
+}
+.profileHeader-right__bottom {
+  margin-top: 20px;
+}
+.profileHeader-right__bottom > h3 {
+  font-size: 15px;
+  font-weight: 100px !important;
+}
+.profileHeader-right__bottom > p {
+  max-width: 300px;
+  word-wrap: wrap;
+}

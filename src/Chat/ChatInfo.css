@@ -1,0 +1,9 @@
+.chatInfo {
+  width: 70%;
+  margin: 20px auto;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  height: 86vh;
+  border-radius: 4px;
+  display: flex;
+}

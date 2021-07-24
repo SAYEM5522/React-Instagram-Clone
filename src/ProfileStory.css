@@ -1,0 +1,15 @@
+.profileStory {
+  margin-left: 220px;
+  display: flex;
+  align-items: center;
+  width: 850px;
+  overflow-x: scroll;
+  margin-bottom: 60px;
+}
+.profileStory::-webkit-scrollbar {
+  display: none;
+}
+.profileStory {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

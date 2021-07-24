@@ -1,0 +1,6 @@
+.postList {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 850px;
+}

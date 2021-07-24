@@ -1,0 +1,64 @@
+.header__profile {
+  height: 22px;
+  border-radius: 10px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-between;
+  padding: 11px 0px;
+  border-bottom: 1px solid #dbdbdb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.header__logo {
+  margin-left: 150px;
+  cursor: pointer;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__middle {
+  display: flex;
+  align-items: center;
+}
+.header__middle > input {
+  position: relative !important;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 6px 3px;
+  min-width: 200px;
+  border: 0.4px solid #bbbbbb;
+  outline-width: 0;
+  border-radius: 4px;
+}
+.header__middle > .MuiSvgIcon-root {
+  font-size: 16px !important;
+  position: absolute !important;
+  margin-left: 63px;
+  color: #232323;
+}
+.header__right {
+  margin-right: 150px;
+}
+.header__right > .MuiSvgIcon-root {
+  margin-right: 20px;
+  font-size: 30px !important;
+  color: #242424;
+  cursor: pointer;
+}
+.header__right a {
+  text-transform: inherit !important;
+  color: inherit !important;
+  font-size: inherit;
+  margin-right: 20px;
+}
+input[type="file"] {
+  display: none;
+}
